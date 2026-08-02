@@ -77,5 +77,6 @@ h1{
     padding: 15px;
     background-color: cornflowerblue;
     border: 2px solid gold;
-    border-radius: 15px;   
+    border-radius: 15px;  
+    flex-wrap: wrap; 
 }
