@@ -26,7 +26,7 @@ h1{
     justify-content: space-between;
     width: 450px;
     padding: 15px;
-    background-color: white;
+    background-color: pink;
     border: 2px solid gold;
     border-radius: 15px;
     margin: 15px auto;
@@ -49,4 +49,33 @@ h1{
 }
 .tb span{
     color: red;
+}
+.nb {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+    padding: 15px;
+    background-color: pink;
+    border: 2px solid gold;
+    border-radius: 15px;
+    margin: 15px auto;
+    font-size: 20px;
+}
+.nb:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.mc{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2px;
+}
+.tb h2{
+    padding: 15px;
+    background-color: cornflowerblue;
+    border: 2px solid gold;
+    border-radius: 15px;   
 }
