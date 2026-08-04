@@ -81,3 +81,21 @@ h1{
     border-radius: 15px;  
     flex-wrap: wrap; 
 }
+.npc{
+    text-align: center;
+    margin: 40px;
+}
+.next{
+    background-color: blue;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.next:hover{
+    background-color: darkblue;
+    transform: translateY(-5px);
+    border-color: cyan;
+    box-shadow: 0 0 20px cyan, 0 0 40px blue;
+}

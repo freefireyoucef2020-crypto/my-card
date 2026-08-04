@@ -1,0 +1,178 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    direction: ltr;
+    text-align: left;
+    font-weight: bold;
+}
+.page-title{
+    text-align: center;
+    color: orangered;
+    margin-bottom: 30px;
+}
+.fr{
+    display: flex;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px gray;
+    transition: transform 0.3s ease;
+}
+.fr:hover {
+    transform: scale(1.02);
+}
+.tb{
+    flex: 1;
+    padding: 20px;
+}
+.tb h2{
+    margin-top: 0;
+    text-transform: uppercase;
+}
+.ib{
+    width: 200px;
+}
+.ib img{
+    width: 100%;
+    height: 200%;
+    object-fit: cover;
+}
+.gyomi {
+    background: linear-gradient(135deg, sienna, dimgray);
+    border: 3px solid silver;
+}
+.gyomi h2 {
+    color: silver;
+}
+.sanimi {
+    background: linear-gradient(135deg, darkgreen, mediumseagreen);
+    border: 3px solid lightgreen;
+}
+.sanimi h2 {
+    color: lightgreen;
+}
+.giyu {
+    background: linear-gradient(135deg, darkblue, deepskyblue);
+    border: 3px solid cyan;
+}
+.giyu h2 {
+    color: cyan;
+}
+.tokito {
+    background: linear-gradient(135deg, slategray, lightsteelblue);
+    border: 3px solid white;
+}
+.tokito h2 {
+    color: white;
+}
+.mitsuri {
+    background: linear-gradient(135deg, deeppink, hotpink);
+    border: 3px solid pink;
+}
+.mitsuri h2 {
+    color: pink;
+}
+.obanai {
+    background: linear-gradient(135deg, darkred, gray);
+    border: 3px solid lightgray;
+}
+.obanai h2 {
+    color: lightgray;
+}
+.kyojuro {
+    background: linear-gradient(135deg, red, darkorange);
+    border: 3px solid yellow;
+}
+.kyojuro h2 {
+    color: yellow;
+}
+.tengen {
+    background: linear-gradient(135deg, purple, magenta);
+    border: 3px solid violet;
+}
+.tengen h2 {
+    color: violet;
+}
+.kocho {
+    background: linear-gradient(135deg, navy, slateblue);
+    border: 3px solid lavender;
+}
+.kocho h2 {
+    color: lavender;
+}
+.ib img {
+    width: 150px;
+    border-radius: 15px;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 15px;
+}
+.tb span{
+    color: black;
+}
+.cg{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.page-title{
+padding: 10px 30px;
+width: fit-content;
+background-color: salmon;
+border: 2px solid gold;
+border-radius: 15px;
+font-size: 50px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+}
+.fr {
+    transition: all 0.4s ease-in-out;
+}
+
+.fr:hover {
+    transform: translateY(-8px) scale(1.02);
+}
+.kyojuro:hover {
+    box-shadow: 0 0 25px orangered, 0 0 50px darkorange, 0 0 75px gold, inset 0 0 20px gold;
+    border-color: gold;
+}
+.giyu:hover {
+    box-shadow: 0 0 25px deepskyblue, 0 0 50px dodgerblue, 0 0 75px cyan, inset 0 0 20px cyan;
+    border-color: cyan;
+}
+.gyomi:hover {
+    box-shadow: 0 0 25px sienna, 0 0 50px gray, 0 0 75px gainsboro, inset 0 0 20px silver;
+    border-color: silver;
+}
+.sanimi:hover {
+    box-shadow: 0 0 25px forestgreen, 0 0 50px limegreen, 0 0 75px lightgreen, inset 0 0 20px lightgreen;
+    border-color: lightgreen;
+}
+.tokito:hover {
+    box-shadow: 0 0 25px slategray, 0 0 50px lightsteelblue, 0 0 75px white, inset 0 0 20px white;
+    border-color: white;
+}
+.mitsuri:hover {
+    box-shadow: 0 0 25px deeppink, 0 0 50px hotpink, 0 0 75px pink, inset 0 0 20px lightpink;
+    border-color: pink;
+}
+.obanai:hover {
+    box-shadow: 0 0 25px darkred, 0 0 50px dimgray, 0 0 75px lightgray, inset 0 0 20px lightgray;
+    border-color: lightgray;
+}
+.tengen:hover {
+    box-shadow: 0 0 25px purple, 0 0 50px magenta, 0 0 75px violet, inset 0 0 20px violet;
+    border-color: violet;
+}
+.kocho:hover {
+    box-shadow: 0 0 25px navy, 0 0 50px slateblue, 0 0 75px lavender, inset 0 0 20px lavender;
+    border-color: lavender;
+}
