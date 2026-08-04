@@ -26,6 +26,8 @@ body{
 .tb{
     flex: 1;
     padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
 .tb h2{
     margin-top: 0;
